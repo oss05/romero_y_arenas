@@ -1,0 +1,524 @@
+header {
+    background-image: url('../img/portada.jpg');
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    /* border: solid 1px red; */
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar {
+    /* border: solid 1px red; */
+}
+
+.conetendorLogoNav {
+    /* border: solid 1px blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 50px;
+}
+
+.img_logoNav {
+    width: 4.8em;
+    height: auto;
+}
+
+.link-nav {
+    /* border: solid 1px blue; */
+    margin-left: 4vw;
+    width: auto !important;
+  }
+
+.listanav a {
+    text-decoration: none;
+    /* border: solid 1px red; */
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.1s ease-out;
+}
+
+.listanav a:hover {
+    border-bottom: #8A0736 2px solid;
+    font-size: 101%;
+}
+
+i {
+    color: #8A0736;
+}
+
+/* ----------navbar responsive toggler------------ */
+
+.dot, .dot:before, .dot:after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #3a3c3e;
+}
+
+.dot {
+    /* top: 50%;
+    left: 50%; */
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.dot:before, .dot:after {
+    content: "";
+}
+
+.dot:before {
+    right: 15px;
+    transition: right .3s ease-out;
+}
+
+.dot:after {
+    left: 15px;
+    transition: left .3s ease-out;
+}
+
+.dots:hover .dot:before {
+    right: -15px;
+}
+
+.dots:hover .dot:after {
+    left: -15px;
+}
+
+button {
+    border: none !important;
+    color: transparent !important;
+    -webkit-appearance: listbox !important;
+}
+
+.contenedorSeccion {
+    /* border: 1px solid yellow; */
+    width: 70%;
+    height: 9em;
+    background-color: #ffffffbf;
+    padding-left: 14em;
+    display: flex;
+    align-items: center;
+}
+
+.tituloSeccion {
+    font-size: 100px;
+    color: #8A0736;
+    font-weight: 200;
+    letter-spacing: 10pt !important;
+}
+
+/* --------fin header -----------
+-----------section boletines---------------- */
+
+.boletines {
+    width: 100%;
+    height: auto;
+    /* border: solid 1px blue; */
+}
+
+.contenedorInterno {
+    width: 50%;
+    height: auto;
+    /* border: solid 1px red; */
+    margin-top: 5em;
+}
+
+.contenedorInternoDos {
+    width: 50%;
+    height: auto;
+    /* border: solid 1px green; */
+    margin-left: 50%;
+    margin-bottom: 5em;
+}
+
+.imagen19 {
+    /* border: solid 1px yellow; */
+    width: 100%;
+    height: 8em;
+    background-image: url('../img/boletines2019.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imagen18 {
+    /* border: solid 1px yellow; */
+    width: 100%;
+    height: 8em;
+    background-image: url('../img/boletines2018.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imagen17 {
+    /* border: solid 1px yellow; */
+    width: 100%;
+    height: 8em;
+    background-image: url('../img/boletines2017.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contenedorListaBoletines19 {
+    /* border: solid 1px purple; */
+    width: initial;
+}
+
+.contenedorListaBoletines18 {
+    /* border: solid 1px purple; */
+    width: initial;
+    margin-left: -2em;
+}
+
+.contenedorListaBoletines17 {
+    /* border: solid 1px purple; */
+    width: initial;
+    margin-bottom: 2em;
+}
+
+.listaBoletines {
+    color: #929394;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.listaBoletines>li {
+    color: #929394;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    margin-top: 2em;
+    font-size: 150%;
+    letter-spacing: 1pt;
+    transition: 0.1s all ease;
+}
+
+.listaBoletines:hover {
+    color: #8A0736;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.listaBoletines>li:hover {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    border-bottom: 2px #8A0736 solid;
+    font-size: 155%;
+}
+
+/* --------------------footer------------------ */
+
+.footer {
+    /* border: solid 1px rgb(255, 183, 0); */
+    /* margin-top: 20px; */
+    width: 100%;
+    height: auto;
+}
+
+.seccion1 {
+    /* border: solid 1px rgb(0, 145, 255); */
+    padding-top: 1em !important;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(55, 54, 54);
+    background-color: #f1f2f2;
+    padding: 0 0.8em;
+    text-align: center;
+}
+
+.hrFooter {
+    background-color: #8A0736;
+    height: 1px;
+    width: 55vw;
+}
+
+.contactoUser {
+    color: #000;
+    margin-bottom: 1em;
+}
+
+.contactoUser:hover {
+    color: #8A0736;
+}
+
+.seccion2 {
+    /* border: solid 1px greenyellow; */
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 20vw 1fr;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(55, 54, 54)
+}
+
+.seccion2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.seccion2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(55, 54, 54);
+}
+
+a.avisoPrivacidad {
+    transition: all ease 0.1s;
+    text-decoration: none;
+}
+
+a.avisoPrivacidad:hover {
+    border-bottom: solid 2px #8A0736;
+    font-size: 108%;
+}
+
+.logo_soma {
+    /* border: solid 2px #7d1c57; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 25%);
+}
+
+.designed {
+    width: 100%;
+    height: 50%;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    font-size: 80%;
+}
+
+.imgLogoSoma {
+    width: 80%;
+    height: 50%;
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+@media only screen and (max-width: 600px) {
+    /*--------navbar--------------------------- */
+    header {
+        background-image: url('../img/portada_res.png');
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 35vh;
+        /* border: solid 1px red; */
+        margin-bottom: 0;
+    }
+    .contenedorSeccion {
+        /* border: 1px solid yellow; */
+        width: 75%;
+        height: 5em;
+        background-color: #ffffffbf;
+        padding-left: 2em;
+        display: flex;
+        align-items: center;
+        margin-top: 4em;
+    }
+    .tituloSeccion {
+        font-size: 50px;
+        color: #8A0736;
+        font-weight: 200;
+        letter-spacing: 4pt !important;
+    }
+    /* ---------------------Fin navbar------------------ */
+    .seccion_boletines {
+        /* border: solid 1px rgb(255, 0, 191); */
+        width: 45%;
+        margin-top: 2em;
+        height: 10em;
+        background-image: url('/img/boletines.png');
+        background-size: cover;
+        background-position: left;
+    }
+    .contenedorInterno {
+        width: 100%;
+        height: auto;
+        /* border: solid 1px red; */
+        margin-top: 1em;
+        left: 0;
+    }
+    .contenedorInternoDos {
+        width: 100%;
+        height: auto;
+        /* border: solid 1px green; */
+        margin-left: 0 !important;
+        margin-bottom: 1em;
+        margin-top: 3em;
+    }
+    .imagen19 {
+        /* border: solid 1px yellow; */
+        width: 100%;
+        height: 3em;
+        background-image: url('../img/boletines2019.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .imagen18 {
+        /* border: solid 1px yellow; */
+        width: 100%;
+        height: 3em;
+        background-image: url('../img/boletines2018.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .imagen17 {
+        /* border: solid 1px yellow; */
+        width: 100%;
+        height: 3em;
+        background-image: url('../img/boletines2017.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 3rem;
+    }
+    .contenedorListaBoletines19 {
+        /* border: solid 1px purple; */
+        width: inherit;
+        padding-right: 1.5em;
+    }
+    .contenedorListaBoletines18 {
+        /* border: solid 1px purple; */
+        width: initial;
+        padding: 0 2em;
+    }
+    .listaBoletines {
+        color: #929394;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .listaBoletines>li {
+        color: #929394;
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+        margin-top: 2em;
+        font-size: 100%;
+        letter-spacing: 1pt;
+    }
+    .listaBoletines:hover {
+        color: #8A0736;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+    }
+    .listaBoletines>li:hover {
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+        border-bottom: 2px #8A0736 solid;
+        font-size: 105%;
+    }
+    .seccion2 {
+        /* border: solid 1px blue; */
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(55, 54, 54)
+    }
+    .logo_soma {
+        /* border: solid 2px #7d1c57; */
+        display: flex;
+        /* grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 25%); */
+        align-items: flex-end;
+    }
+    .designed {
+        width: 100%;
+        height: 50%;
+        font-size: 80%;
+        margin-top: 20px;
+        padding-left: 30%;
+    }
+    .imgLogoSoma {
+        /* border: solid 1px orangered; */
+        width: 30%;
+        height: 35%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .listanav a {
+        text-decoration: none;
+        /* border: solid 1px red; */
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.1s ease-out;
+        /* padding-left: 60% !important; */
+    }
+    .contenedorSeccion {
+        /* border: 1px solid yellow; */
+        width: 68%;
+        height: 9em;
+        background-color: #ffffffbf;
+        padding-left: 2em;
+        display: flex;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .link-nav {
+        /* border: solid 1px blue; */
+        margin-left: 5vw;
+    }
+    .contenedorInterno {
+        width: 80%;
+        height: auto;
+        /* border: solid 1px red; */
+        margin-top: 5em;
+    }
+    .contenedorInternoDos {
+        width: 80%;
+        height: auto;
+        /* border: solid 1px green; */
+        margin-left: 20%;
+        margin-bottom: 5em;
+        margin-top: 5em;
+    }
+    .contenedorListaBoletines19 {
+        /* border: solid 1px purple; */
+        width: inherit;
+        margin-top: -3em;
+    }
+    .contenedorListaBoletines18 {
+        /* border: solid 1px purple; */
+        width: initial;
+        padding-right: 2em;
+        margin-top: -3em;
+    }
+    .contenedorListaBoletines17 {
+        /* border: solid 1px purple; */
+        width: initial;
+        padding-right: 2em;
+        margin-top: -3em;
+    }
+    .logo_soma {
+        /* border: solid 2px #7d1c57; */
+        display: flex;
+        /* grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 25%); */
+        align-items: flex-end;
+    }
+    .designed {
+        width: 100%;
+        height: 50%;
+        font-size: 80%;
+        margin-top: 20px;
+    }
+    .imgLogoSoma {
+        /* border: solid 1px orangered; */
+        width: 40%;
+        height: 30%;
+    }
+}

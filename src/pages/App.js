@@ -4,6 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
+import Home from '../pages/Home';
 import Nosotros from './Nosotros';
 import Areas from './Areas';
 import Equipo from './Equipo';
@@ -40,11 +41,13 @@ class App extends Component {
     return ( 
       <Router>
         <Navbar handleChangeIdioma={this.handleChangeIdioma} idioma={this.state.idioma} data={this.state.data}/>
-        <Route exact path="/" component={() => <Nosotros data={this.state.data}/>}/>
+        {/* <Route exact path="/" component={() => < data={this.state.data}/>}/> */}
+        <Route exact path="/" component={() => <Home data={this.state.data}/>}/>
         <Route path="/areas-de-servicio" component={() => <Areas data={this.state.data}/>}/>
         <Route path="/equipo" component={() => <Equipo data={this.state.data}/>}/>
         <Route path="/boletines" component={() => <Boletines data={this.state.data}/>}/>
         <Route path="/contacto" component={() => <Contacto data={this.state.data}/>}/>
+        <Footer/>
       </Router>
      );
   }

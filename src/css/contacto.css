@@ -1,0 +1,408 @@
+header {
+    background-image: url('../img/portada.jpg');
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    /* border: solid 1px red; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.custom-navbar {
+    /* border: solid 1px red; */
+}
+
+.conetendorLogoNav {
+    /* border: solid 1px blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 50px;
+}
+
+.img_logoNav {
+    width: 4.8em;
+    height: auto;
+}
+
+.link-nav {
+    /* border: solid 1px blue; */
+    margin-left: 4vw;
+    width: auto !important;
+  }
+
+.listanav a {
+    text-decoration: none;
+    /* border: solid 1px red; */
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.1s ease-out;
+}
+
+.listanav a:hover {
+    border-bottom: #8A0736 2px solid;
+    font-size: 101%;
+}
+
+i {
+    color: #8A0736;
+}
+
+/* ----------navbar responsive toggler------------ */
+
+.dot, .dot:before, .dot:after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #3a3c3e;
+}
+
+.dot {
+    /* top: 50%;
+    left: 50%; */
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.dot:before, .dot:after {
+    content: "";
+}
+
+.dot:before {
+    right: 15px;
+    transition: right .3s ease-out;
+}
+
+.dot:after {
+    left: 15px;
+    transition: left .3s ease-out;
+}
+
+.dots:hover .dot:before {
+    right: -15px;
+}
+
+.dots:hover .dot:after {
+    left: -15px;
+}
+
+button {
+    border: none !important;
+    color: transparent !important;
+    -webkit-appearance: listbox !important;
+}
+
+.contenedorSeccion {
+    /* border: 1px solid yellow; */
+    width: 70%;
+    height: 9em;
+    background-color: #ffffffbf;
+    padding-left: 14em;
+    display: flex;
+    align-items: center;
+}
+
+.tituloSeccion {
+    font-size: 100px;
+    color: #8A0736;
+    font-weight: 200;
+    letter-spacing: 10pt !important;
+}
+
+/* --------fin header -----------
+  /* --------comienzo Main -----------*/
+
+.mapa {
+    margin: 2em 0;
+    /* border: solid 1px rgb(106, 255, 0); */
+    width: 100%;
+    height: 400px;
+}
+
+.map {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* -------------footer------------- */
+.seccion1 {
+    /* border: solid 1px rgb(0, 145, 255); */
+    padding-top: 1em !important;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(55, 54, 54);
+    background-color: #f1f2f2;
+    padding: 0 0.8em;
+    text-align: center;
+    font-size: 150%;
+}
+
+.hrFooter {
+    background-color: #8A0736;
+    height: 1px;
+    width: 55vw;
+}
+
+.contactoUser {
+    color: #000;
+    margin-bottom: 1em;
+}
+
+.contactoUser:hover {
+    color: #8A0736;
+}
+
+.seccion1 {
+    /* border: solid 1px rgb(0, 145, 255); */
+    padding-top: 1em !important;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(55, 54, 54);
+    background-color: #f1f2f2;
+    padding: 0 0.8em;
+    text-align: center;
+}
+
+.seccion2 {
+    /* border: solid 1px greenyellow; */
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 20vw 1fr;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(55, 54, 54)
+}
+
+.seccion2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.seccion2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(55, 54, 54);
+}
+
+a.avisoPrivacidad {
+    transition: all ease 0.1s;
+    text-decoration: none;
+}
+
+a.avisoPrivacidad:hover {
+    border-bottom: solid 2px #8A0736;
+    font-size: 108%;
+}
+
+.logo_soma {
+    /* border: solid 2px #7d1c57; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 25%);
+}
+
+.designed {
+    width: 100%;
+    height: 50%;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    font-size: 80%;
+}
+
+.imgLogoSoma {
+    width: 100%;
+    height: 50%;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+@media only screen and (max-width: 600px) {
+    /*--------navbar--------------------------- */
+    header {
+        background-image: url('../img/portada_res.png');
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 35vh;
+        /* border: solid 1px red; */
+        margin-bottom: 2em;
+    }
+    .drop_main {
+        display: initial !important;
+        background-color: #3a3c3e;
+    }
+    .img_arrow {
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: 1em;
+    }
+    .areas_de_servicio_contenido {
+        /* border: solid 1px blue; */
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .decorationWhiteRects {
+        /* border: solid 1px olivedrab; */
+        width: 85%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .whiteDecorationRect {
+        /* border: solid 1px red; */
+        width: 100%;
+        height: 38px;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        display: flex;
+        margin-top: 1.8em;
+        background-color: #f1f2f2;
+    }
+    .whiteDecorationRect a {
+        margin-left: -20px;
+        color: black;
+        text-decoration: none;
+        font-size: 0.8em;
+    }
+    .whiteDecorationRect:hover {
+        color: transparent;
+    }
+    .contenedorSeccion {
+        /* border: 1px solid yellow; */
+        width: 70%;
+        height: 7em;
+        background-color: #ffffffbf;
+        padding-left: 2em;
+        display: flex;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .tituloSeccion {
+        font-size: 35px;
+        color: #8A0736;
+        font-weight: 300;
+        letter-spacing: 4pt !important;
+        margin-top: 0.5em;
+    }
+    /* ---------------------Fin navbar------------------ */
+    /* -------------footer------------- */
+    .seccion1 {
+        /* border: solid 1px rgb(0, 145, 255); */
+        padding-top: 1em !important;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(55, 54, 54);
+        background-color: #f1f2f2;
+        padding: 0 0.8em;
+        text-align: center;
+        font-size: 120%;
+    }
+  
+    .seccion2 {
+        /* border: solid 1px blue; */
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(55, 54, 54)
+    }
+    .logo_soma {
+        /* border: solid 2px #7d1c57; */
+        display: flex;
+        /* grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 25%); */
+        align-items: flex-end;
+    }
+    .designed {
+        width: 100%;
+        height: 50%;
+        font-size: 80%;
+        margin-top: 20px;
+        padding-left: 30%;
+    }
+    .imgLogoSoma {
+        /* border: solid 1px orangered; */
+        width: 30%;
+        height: 35%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .listanav a {
+        text-decoration: none;
+        /* border: solid 1px red; */
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.1s ease-out;
+        /* padding-left: 60% !important; */
+    }
+    .contenedorSeccion {
+        /* border: 1px solid yellow; */
+        width: 68%;
+        height: 9em;
+        /* background-color: #ffffffbf; */
+        padding-left: 2em;
+        display: flex;
+        align-items: center;
+    }
+    .link-nav {
+        /* border: solid 1px blue; */
+        margin-left: 5vw;
+    }
+    .titulo_areas_servicio {
+        /* border: solid 1px rgb(76, 50, 205); */
+        width: 100%;
+        height: 100%;
+    }
+    .logo_soma {
+        /* border: solid 2px #7d1c57; */
+        display: flex;
+        /* grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 25%); */
+        align-items: flex-end;
+    }
+    .designed {
+        width: 100%;
+        height: 50%;
+        font-size: 80%;
+        margin-top: 20px;
+    }
+    .imgLogoSoma {
+        /* border: solid 1px orangered; */
+        width: 30%;
+        height: 30%;
+    }
+}

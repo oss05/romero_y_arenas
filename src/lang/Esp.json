@@ -1,20 +1,83 @@
 {
-   "secciones":{
-       "nosotros":{
-           "nombre":"Nosotros"
-       },
-       "areas":{
-           "nombre":"Áreas de Servicio"
-       },
-       "equipo":{
-           "nombre":"Equipo"
-       },
-       "boletines":{
-           "nombre":"Boletines"
-       },
-       "contacto":{
-           "nombre":"Contacto"
-       }
-
-   }
+    "secciones": {
+        "nosotros": {
+            "nombre": "Nosotros"
+        },
+        "areas": {
+            "nombre": "Áreas de Servicio",
+            "Laboral": {
+                "name": "Laboral y Seguridad Social",
+                "p1": "El área laboral de nuestro Despacho brinda servicios jurídicos a patrones y empleados, tanto de empresas nacionales como transnacionales, abarcando tres grandes áreas:",
+                "p2": "La preventiva / consultiva, la contenciosa y la de seguridad social.",
+                "p3": "Asimismo, somos especialistas en la preparación, revisión y negociación de contratos colectivos de trabajo y relaciones con sindicatos."
+            },
+            "Corporativo": {
+                "name": "Corporativo",
+                "p1": "El área corporativa de nuestro Despacho presta servicios relacionados con la elaboración, revisión y actualización de documentos corporativos, tales como escrituras públicas, asambleas, sesiones de consejo, libros corporativos, títulos de acciones, entre otros. Cubrimos todos los servicios relacionados con auditorias legales y regularización corporativa. Asimismo, llevamos a cabo la inscripción y regularización de sociedades ante el Registro Nacional de Inversiones Extranjeras."
+            },
+            "Contratos": {
+                "name": "Contratos",
+                "p1": "Contamos con experiencia en la elaboración, revisión y negociación de contratos de cualquier naturaleza, tales como compra-ventas, arrendamientos, asociaciones (joint venture), fusiones y adquisiciones (tanto nacionales como extranjeras), distribución, suministro, inmobiliarios, prestación de servicios, confidencialidad, licencias, etc."
+            },
+            "Competencia": {
+                "name": "Competencia Económica",
+                "p1": "El área de competencia económica de nuestro Despacho comprende la notificación de todo tipo de concentraciones y presentación y desahogo de procedimientos de investigación y/o denuncia ante la Comisión Federal de Competencia Económica.",
+                "p2": "Asimismo, asesoramos en la elaboración o revisión de contratos bajo la perspectiva de las disposiciones contempladas en la Ley Federal de Competencia Económica, incluyendo políticas comerciales permitidas por dicha legislación y manejo de información confidencial."
+            },
+            "Propiedad": {
+                "name": "Propiedad Industrial e Intelectual",
+                "p1": "Nuestro Despacho ofrece servicios relacionados con el registro de marcas, avisos comerciales, patentes, etc., así como la tramitación y desahogo de cualquiera de los procedimientos contemplados en la Ley de la Propiedad Industrial. Así también, manejamos todos los trámites y procedimientos relacionados con el Instituto Nacional del Derecho de Autor."
+            },
+            "Cumplimiento": {
+                "name": "Cumplimiento Normativo y Gobierno Corporativo",
+                "p1": "Esta área de Romero & Arenas se especializa en consultoría y elaboración de políticas y procedimientos que aseguren el cumplimiento legal respecto de la operación y gobierno corporativo de las empresas, así como la implementación de mejores prácticas corporativas (anticorrupción, protección de datos personales, discriminación, conflicto de intereses, etc.)."
+            },
+            "Litigio": {
+                "name": "Litigio Mercantil, Civil y Penal",
+                "p1": "a) Civil y Mercantil.",
+                "p2": "Nuestros abogados especialistas en materia de litigio civil y mercantil, están capacitados para hacer valer ante los tribunales los derechos de nuestros clientes, ya sea promoviendo las acciones que a su favor tienen nuestros representados o bien, defendiéndolos en los procesos en los que tengan el carácter de demandados, ello implementando las estrategias acordes al caso en concreto. En caso de existir un conflicto inminente, consideramos importante que nuestros clientes conozcan la variedad de “Medios Alternativos de Solución de Controversias” que prevé nuestro marco normativo, ello con el fin de evitar los tiempos y altos costos que significan iniciar un procedimiento judicial.",
+                "p3": "b) Penal.",
+                "p4": "Nuestra área de consultoría y litigio penal, se especializa en la atención y tramitación de asuntos que impliquen delitos patrimoniales, de propiedad industrial e intelectual, así como de todos aquellos que impactan los intereses de las compañías que representamos."
+            },
+            "Proteccion": {
+                "name": "Protección y Defensa de los Usuarios de Servicios Financieros",
+                "p1": "Contamos con experiencia en la tramitación y desahogo de reclamaciones y procedimientos ante la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros."
+            }
+        },
+        "equipo": {
+            "nombre": "Equipo",
+            "2019": {
+                "name": "",
+                "p1": "Proyecto de Reforma Ley Federal del Trabajo",
+                "p2": "Progama Jovenes Costruyendo el Futuro",
+                "p3": "Trabajadoras domésticas"
+            },
+            "2018": {
+                "name": "",
+                "p1": "Salario Mínimo 2019",
+                "p2": "NOM-035-STPS-2018",
+                "p3": "Pension de Viudez",
+                "p4": "Libertad Sindical - Convenio 98 Organización Internacional del Trabajo",
+                "p5": "Cumplimineto Legal Penal",
+                "p6": "Dictámen electrónico IMSS",
+                "p7": "Acuerdo de Cooperación Bilateral - Argentina, Guatemala, Paraguay y México",
+                "p8": "Recibos de Pago Electrónicos",
+                "p9": "Violencia Laboral",
+                "p10": "Conciliación en Conflictos Laborales",
+                "p11": "Subcontratación",
+                "p12": "Prima Anual Riesgo de Trabajo IMSS"
+            },
+            "2017": {
+                "name": "",
+                "p1": "Salario Mínimo 2018",
+                "p2": "Modificación Ley Federal del Trabajo"
+            }
+        },
+        "boletines": {
+            "nombre": "Boletines"
+        },
+        "contacto": {
+            "nombre": "Contacto"
+        }
+    }
 }

@@ -1,0 +1,10 @@
+.pLeft {
+    border: solid 1px brown;
+    margin-left: 5%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 3em;
+    text-align: justify;
+    width: 70%;
+    line-height: 2em;
+    height: 10px;
+  }

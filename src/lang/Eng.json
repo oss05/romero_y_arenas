@@ -1,20 +1,83 @@
 {
-    "secciones":{
-        "nosotros":{
-            "nombre":"Us"
+    "secciones": {
+        "nosotros": {
+            "nombre": "Us"
         },
-        "areas":{
-            "nombre":"Service Areas"
+        "areas": {
+            "nombre": "Service Areas",
+            "Laboral": {
+                "name": "LABOR AND  SOCIAL SECURITY AREA",
+                "p1": "The labor area of our Law Firm provides legal services to employers and employees, both for domestic and transnational companies, comprising three large areas: Preventive/Consultancy Area, Contentious Labor Department and Social Security.",
+                "p2": "Likewise, we are specialized in drafting, review and negotiation of collective agreements and relationships with labor unions.",
+                "p3": "Asimismo, somos especialistas en la preparación, revisión y negociación de contratos colectivos de trabajo y relaciones con sindicatos."
+            },
+            "Corporativo": {
+                "name": "CORPORATE AREA",
+                "p1": "The corporate area of our Law Firm provides services in connection with the preparation, review and update of corporate documents, such as public instruments, minutes of shareholders meetings or board of directors meetings, corporate books, stock certificates, among others. We provide all the services related with legal audits and corporate regularization. Likewise, we carry out the registration and regularization of companies with the National Registry of Foreign Investments."
+            },
+            "Contratos": {
+                "name": "CONTRACTS",
+                "p1": "We have experience in the preparation, review and negotiation of contracts of any nature, including purchase agreements, lease agreements, joint-ventures, mergers and acquisitions (both domestic and foreign), distribution supply, real estate, services agreements, confidentiality agreements, license agreements, etc."
+            },
+            "Competencia": {
+                "name": "ANTITRUST",
+                "p1": "Our competition area includes notices of all kinds of concentrations and filing and replies to investigation proceedings and/or complaints with the Federal Antitrust Commission.",
+                "p2": "Likewise, we assist on the preparation or review of agreements under the perspective of the provisions set forth in the Federal Antitrust Law, including commercial policies permitted by such law and confidential information."
+            },
+            "Propiedad": {
+                "name": "INDUSTRIAL AND INTELLECTUAL PROPERTY",
+                "p1": "Our Law Firm offers services in connection with the registration of trademarks, commercial advertisements, patents, etc., as well as the processing and response to any of the proceedings set forth in the Industrial Property Law. "
+            },
+            "Cumplimiento": {
+                "name": "REGULATORY COMPLIANCE AND CORPORATE GOVERNANCE",
+                "p1": "At Romero & Arenas, we specialize in consultancy and preparation of policies and proceedings that ensure legal compliance for the operation and corporate governance as well as the implementing best corporate practices (anti-corruption, personal data protection, discrimination, conflict of interests, etc.)."
+            },
+            "Litigio": {
+                "name": "COMMERCIAL, CIVIL AND CRIMINAL LITIGATION",
+                "p1": "a) Civil and Commercial.",
+                "p2": "Our lawyers specializing in civil and commercial litigation, are trained to assert before the courts the rights of our clients, either by promoting the actions in their favor have our representatives or, defending them in the processes in which they have the character of defendants, this by implementing the strategies according to the specific case. In the event of an imminent conflict, we consider it important that our clients know the variety of 'Alternative Dispute Resolution Means' provided by our regulatory framework, in order to avoid the time and high costs involved in initiating a legal proceeding.",
+                "p3": "b) Criminal.",
+                "p4": "Our area of consulting and criminal litigation, specializes in the care and processing of matters involving property crimes, industrial and intellectual property, as well as all those that impact the interests of the companies we represent."
+            },
+            "Proteccion": {
+                "name": "PROTECTION AND DEFENSE OF FINANCIAL SERVICES USERS.",
+                "p1": "We have experience in the processing and dealing with complaints and procedures with the National Commission for the Protection and Defense of Financial Services Users."
+            }
         },
-        "equipo":{
-            "nombre":"Our Team"
+        "equipo": {
+            "nombre": "Our Team",
+            "2019": {
+                "name": "",
+                "p1": "",
+                "p2": "",
+                "p3": ""
+            },
+            "2018": {
+                "name": "",
+                "p1": "",
+                "p2": "",
+                "p3": "",
+                "p4": "",
+                "p5": "",
+                "p6": "",
+                "p7": "",
+                "p8": "",
+                "p9": "",
+                "p10": "",
+                "p11": "",
+                "p12": ""
+            },
+            "2017": {
+                "name": "",
+                "p1": "",
+                "p2": ""
+            }
         },
-        "boletines":{
-            "nombre":"Newsletters"
+        "boletines": {
+            "nombre": "Newsletters"
         },
-        "contacto":{
-            "nombre":"Contact Us"
+        "contacto": {
+            "nombre": "Contact Us"
         }
- 
     }
- }
+}
