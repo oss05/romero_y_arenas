@@ -130,14 +130,14 @@ button {
 }
 
 .contenedorIzq {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   width: 100%;
   height: auto;
   display: flex;
 }
 
 .contenedorDer {
-  border: solid 1px blue;
+  /* border: solid 1px blue; */
   width: 100%;
   height: auto;
   display: flex;
@@ -157,7 +157,7 @@ button {
 }
 
 .texto {
-  border: solid 1px blue;
+  /* border: solid 1px blue; */
   width: 50%;
   height: 100%;
 }
@@ -173,7 +173,7 @@ button {
 }
 
 .plecaBlancaDer {
-  border: solid 1px rgb(147, 14, 36);
+  /* border: solid 1px rgb(147, 14, 36); */
   width: 80%;
   height: auto;
   font-family: 'Montserrat', sans-serif;
@@ -200,25 +200,25 @@ button {
 }
 
 .pLeft {
-  border: solid 1px brown;
+  /* border: solid 1px brown; */
   margin-left: 5%;
   font-family: 'Montserrat', sans-serif;
   margin: 0 3em;
   text-align: justify;
   width: 80%;
   line-height: 2em;
-  height: 103vh;
+  height: auto;
 }
 
 .pRight {
-  border: solid 1px brown;
+  /* border: solid 1px brown; */
   margin-left: 5%;
   font-family: 'Montserrat', sans-serif;
   margin-left: 22%;
   text-align: justify;
   width: 75%;
   line-height: 2em;
-  height: 50vh;
+  height: auto;
 }
 
 /* --------------------footer------------------ */
