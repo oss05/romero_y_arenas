@@ -3,7 +3,7 @@ import '../css/main.css'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import imgAreas from "../img/areas-de-servisio.png"
 import logoRya from "../img/Logo_RYA.png"
-import Contenido from '../components/Contenido/Contenido';
+import Contenido2 from '../components/Contenido2/Contenido2';
 
 const Footer = props => {
     return (
@@ -27,51 +27,65 @@ const Footer = props => {
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
                             <Link to="./pages/areasServicio.html#laboral">
-                                <Contenido data={props.data}
-                                    parrafoOnce={props.data.secciones.areas.Laboral.name}
+                                <Contenido2 data={props.data}
+                                    parrafoUno={props.data.secciones.areas.Laboral.name}
                                 />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
                             <Link to="./pages/areasServicio.html#corporativo">
-                                <p>Corporativo</p>
+                            <Contenido2 data={props.data}
+                                    parrafoUno={props.data.secciones.areas.Corporativo.name}
+                                />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
                             <Link to="./pages/areasServicio.html#contratos">
-                                <p>Contratos</p>
+                            <Contenido2 data={props.data}
+                                    parrafoUno={props.data.secciones.areas.Contratos.name}
+                                />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
                             <Link to="./pages/areasServicio.html#competencia">
-                                <p>Competencia Económica</p>
+                            <Contenido2 data={props.data}
+                                    parrafoUno={props.data.secciones.areas.Competencia.name}
+                                />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
                             <Link to="./pages/areasServicio.html#propiedad">
-                                <p>Propiedad Industrial e Intelectual</p>
+                            <Contenido2 data={props.data}
+                                    parrafoUno={props.data.secciones.areas.Propiedad.name}
+                                />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
                             <Link to="./pages/areasServicio.html#cumplimientoNormativo">
-                                <p>Cumplimiento Normativo y Gobierno Corporativo</p>
+                            <Contenido2 data={props.data}
+                                    parrafoUno={props.data.secciones.areas.Cumplimiento.name}
+                                />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
                             <Link to="./pages/areasServicio.html#mercantil">
-                                <p> Litigio Mercantil, Civil y Penal</p>
+                            <Contenido2 data={props.data}
+                                    parrafoUno={props.data.secciones.areas.Litigio.name}
+                                />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
                             <Link to="./pages/areasServicio.html#proteccion">
-                                <p> Protección y Defensa De Los Usuarios De Servicios Financieros</p>
+                            <Contenido2 data={props.data}
+                                    parrafoUno={props.data.secciones.areas.Proteccion.name}
+                                />
                             </Link>
                         </div>
                     </div>

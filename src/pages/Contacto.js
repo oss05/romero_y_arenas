@@ -1,5 +1,5 @@
 import React from 'react'
-import Contenido from '../components/Contenido/Contenido';
+import Contenido2 from '../components/Contenido2/Contenido2';
 import '../css/contacto.css'
 
 const Contacto = props => {
@@ -7,7 +7,7 @@ const Contacto = props => {
         <div>
             <div className="contenedorSeccion">
                 <p className="tituloSeccion">
-                    <Contenido data={props.data}
+                    <Contenido2 data={props.data}
                     parrafoUno={props.data.secciones.contacto.nombre}
                     />
                 </p>

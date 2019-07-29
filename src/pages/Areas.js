@@ -1,5 +1,6 @@
 import React from 'react'
 import Contenido from '../components/Contenido/Contenido';
+import Contenido2 from '../components/Contenido2/Contenido2';
 import Title from '../components/Title/Title'
 import '../css/areasServicio.css'
 //Imagenes
@@ -17,7 +18,11 @@ const Areas = props => {
         <div>
             <header>
                 <div className="contenedorSeccion">
-                    <p className="tituloSeccion">Áreas de Servicio</p>
+                    <p className="tituloSeccion">
+                        <Contenido2 data={props.data}
+                            parrafoUno={props.data.secciones.areas.nombre}
+                        />
+                    </p>
                 </div>
             </header>
 

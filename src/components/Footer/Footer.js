@@ -14,7 +14,7 @@ const Footer = props => {
             </div>
             <div className="seccion2">
                 <p>Todos los derechos reservados</p>
-                <a href="./AVISO DE PRIVACIDAD.pdf" target="_blank" className="avisoPrivacidad">Aviso de Privacidad</a>
+                <a href="http://rasc.mx/AVISO%20DE%20PRIVACIDAD.pdf" target="_blank" className="avisoPrivacidad">Aviso de Privacidad</a>
                 <div className="logo_soma">
                     <p className="designed">Designed By</p>
                     <img className="imgLogoSoma" src={logoSOMA} alt="logoSOMA" />

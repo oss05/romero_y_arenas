@@ -1,11 +1,16 @@
 import React from 'react'
+import Contenido2 from '../components/Contenido2/Contenido2'
 import '../css/equipo.css'
 
 const Equipo = props => {
     return (
         <div>
             <div class="contenedorSeccion">
-                <p class="tituloSeccion">Equipo</p>
+                <p class="tituloSeccion">
+                    <Contenido2  data={props.data}
+                        parrafoUno={props.data.secciones.equipo.nombre}
+                    />
+                </p>
             </div>
             <main>
                 <section class="equipo">
