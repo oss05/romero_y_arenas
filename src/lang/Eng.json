@@ -45,39 +45,44 @@
             }
         },
         "equipo": {
-            "nombre": "Our Team",
-            "2019": {
-                "name": "",
-                "p1": "",
-                "p2": "",
-                "p3": ""
-            },
-            "2018": {
-                "name": "",
-                "p1": "",
-                "p2": "",
-                "p3": "",
-                "p4": "",
-                "p5": "",
-                "p6": "",
-                "p7": "",
-                "p8": "",
-                "p9": "",
-                "p10": "",
-                "p11": "",
-                "p12": ""
-            },
-            "2017": {
-                "name": "",
-                "p1": "",
-                "p2": ""
-            }
+            "nombre": "Our Team"
         },
         "boletines": {
-            "nombre": "Newsletters"
+            "nombre": "Newsletters",
+            "p2019": {
+                "name": "",
+                "p1": "Federal Labor Law Reform Project",
+                "p2": "Youth Building the Future Program",
+                "p3": "Domestic workers"
+            },
+            "p2018": {
+                "name": "",
+                "p1": "Minimum Salary 2019",
+                "p2": "NOM-035-STPS-2018",
+                "p3": "Viudez Pension",
+                "p4": "Freedom of Association - Convention 98 International Labor Organization",
+                "p5": "Criminal Legal Compliance",
+                "p6": "IMSS Electronic Opinion",
+                "p7": "Bilateral Cooperation Agreement - Argentina, Guatemala, Paraguay and Mexico",
+                "p8": "Electronic Payment Receipts",
+                "p9": "Labor Violence",
+                "p10": "Conciliation in Labor Conflicts",
+                "p11": "Outsourcing",
+                "p12": "IMSS Annual Work Risk Premium"
+            },
+            "p2017": {
+                "name": "",
+                "p1": "Minimum Salary 2018",
+                "p2": "Federal Labor Law Modification"
+            }
         },
         "contacto": {
             "nombre": "Contact Us"
+        },
+        "footer": {
+            "derechos": "All rights reserved",
+            "aviso": "Notice of Privacy",
+            "disnio": "Designed by"
         }
     }
 }

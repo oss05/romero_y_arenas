@@ -1,11 +1,17 @@
 import React from 'react'
 import "../css/boletines.css"
+import Contenido2 from '../components/Contenido2/Contenido2'
+
 const Boletines = props => {
     return (
         <div>
             <header>
                 <div className="contenedorSeccion">
-                    <p className="tituloSeccion">Boletines</p>
+                    <div className="tituloSeccion">
+                        <Contenido2 data={props.data}
+                            parrafoUno={props.data.secciones.boletines.nombre}
+                        />
+                    </div>
                 </div>
             </header>
 
@@ -16,13 +22,25 @@ const Boletines = props => {
                         <div className="contenedorListaBoletines19">
                             <ul>
                                 <a href="http://54.212.77.171/Boletines/CircularMarz19R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Proyecto de Reforma Ley Federal del Trabajo</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2019.p1}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularFeb19R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Programa Jovenes Construyendo el Futuro</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2019.p2}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularEn19R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Trabajadoras domésticas</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2019.p3}
+                                        />
+                                    </li>
                                 </a>
                             </ul>
                         </div>
@@ -32,40 +50,88 @@ const Boletines = props => {
                         <div className="contenedorListaBoletines18">
                             <ul>
                                 <a href="http://54.212.77.171/Boletines/CircularNov18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Salario Mínimo 2019</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p1}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularNov18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>NOM-035-STPS-2018</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p2}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularOct18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Pension de Viudez</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p3}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularSept18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Libertad Sindical - Convenio 98 Organización Internacional del Trabajo</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p4}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularAg18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Cumplimiento legal penal</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p5}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularJul18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Dictámen electrónico IMSS</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p6}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularJun18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Acuerdo de Cooperación Bilateral - Argentina, Guatemala, Paraguay y México</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p7}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularMayo18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Recibos de pago electrónicos</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p8}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularAbril18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Violencia Laboral</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p9}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularMzo18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Conciliación en conflictos laborales</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p10}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularFeb18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Subcontratación</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p11}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularEn18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Prima annual riesgo de trabajo IMSS</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p12}
+                                        />
+                                    </li>
                                 </a>
                             </ul>
                         </div>
@@ -75,10 +141,18 @@ const Boletines = props => {
                         <div className="contenedorListaBoletines17">
                             <ul>
                                 <a href="http://54.212.77.171/Boletines/CircularDic18R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Salario Mínimo 2018</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p1}
+                                        />
+                                    </li>
                                 </a>
                                 <a href="http://54.212.77.171/Boletines/CircularDic17R&A.pdf" target="_blank" className="listaBoletines">
-                                    <li>Modificación Ley Federal del Trabajo</li>
+                                    <li>
+                                        <Contenido2 data={props.data}
+                                            parrafoUno={props.data.secciones.boletines.p2018.p2}
+                                        />
+                                    </li>
                                 </a>
                             </ul>
                         </div>

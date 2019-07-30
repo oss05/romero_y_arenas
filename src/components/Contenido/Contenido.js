@@ -9,13 +9,6 @@ const Contenido = props => {
             {props.parrafoDos} <br/>
             {props.parrafoTres} <br/>
             {props.parrafoCuatro} <br/>  
-            {props.parrafoCinco} 
-            {props.parrafoSeis} 
-            {props.parrafoSiete}
-            {props.parrafoOcho}
-            {props.parrafoNueve}
-            {props.parrafoDiez}
-            {props.parrafoOnce}
             </p>
 
     )

@@ -1,0 +1,149 @@
+/* -------------footer------------- */
+.seccion2 {
+    /* border: solid 1px blue; */
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(55, 54, 54)
+  }
+  .logo_soma {
+    /* border: solid 2px #7d1c57; */
+    display: flex;
+    /* grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 25%); */
+    align-items: flex-end;
+  }
+  .designed {
+    width: 100%;
+    height: 50%;
+    font-size: 80%;
+    margin-top: 20px;
+    padding-left: 30%;
+  }
+  .imgLogoSoma {
+    /* border: solid 1px orangered; */
+    width: 30%;
+    height: 35%;
+  }
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .listanav a {
+    text-decoration: none;
+    /* border: solid 1px red; */
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.1s ease-out;
+    /* padding-left: 60% !important; */
+  }
+  .contenedorSeccion {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 20em;
+    background-color: #ffffffbf;
+    padding-left: 10em;
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+  }
+  .link-nav {
+    /* border: solid 1px blue; */
+    margin-left: 5vw;
+  }
+  .contenedorIzq {
+    /* border: solid 1px red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .contenedorDer {
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imagenServicio {
+    /* border: solid 1px green; */
+    width: 100%;
+    height: 100%;
+  }
+  .imagenServicio img {
+    /* border: solid 1px green; */
+    width: 100%;
+    height: 100%;
+  }
+  .texto {
+    /* border: solid 1px rgb(11, 191, 211); */
+    width: 100%;
+    height: 100%;
+    margin-top: -2em;
+  }
+  .plecaBlanca {
+    /* border: solid 1px rgb(147, 14, 36); */
+    width: 80%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1f2f2;
+    margin-bottom: 2em;
+    margin-top: 4em;
+  }
+  .plecaBlancaDer {
+    /* border: solid 1px rgb(147, 14, 36); */
+    width: 80%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1f2f2;
+    margin-bottom: 2em;
+    margin-top: 4em;
+    margin-left: 20%;
+  }
+  .plecaBlanca p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1% 0;
+    margin-left: 8%;
+  }
+  .plecaBlancaDer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 8%;
+  }
+  .texto>p {
+    /* border: solid 1px brown; */
+    /* margin-left: 5%; */
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0;
+    padding: 0 18px;
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  .logo_soma {
+    /* border: solid 2px #7d1c57; */
+    display: flex;
+    /* grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 25%); */
+    align-items: flex-end;
+  }
+  .designed {
+    width: 100%;
+    height: 50%;
+    font-size: 80%;
+    margin-top: 20px;
+  }
+  .imgLogoSoma {
+    /* border: solid 1px orangered; */
+    width: 40%;
+    height: 30%;
+  }
+}
