@@ -26,7 +26,7 @@ const Footer = props => {
                     <div className="decorationWhiteRects">
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="./pages/areasServicio.html#laboral">
+                            <Link to="/areas-de-servicio">
                                 <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Laboral.name}
                                 />
@@ -34,7 +34,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="./pages/areasServicio.html#corporativo">
+                            <Link to="/areas-de-servicio">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Corporativo.name}
                                 />
@@ -42,7 +42,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="./pages/areasServicio.html#contratos">
+                            <Link to="/areas-de-servicio">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Contratos.name}
                                 />
@@ -50,7 +50,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="./pages/areasServicio.html#competencia">
+                            <Link to="/areas-de-servicio">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Competencia.name}
                                 />
@@ -58,7 +58,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="./pages/areasServicio.html#propiedad">
+                            <Link to="/areas-de-servicio">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Propiedad.name}
                                 />
@@ -66,7 +66,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="./pages/areasServicio.html#cumplimientoNormativo">
+                            <Link to="/areas-de-servicio">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Cumplimiento.name}
                                 />
@@ -74,7 +74,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="./pages/areasServicio.html#mercantil">
+                            <Link to="/areas-de-servicio">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Litigio.name}
                                 />
@@ -82,7 +82,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="./pages/areasServicio.html#proteccion">
+                            <Link to="/areas-de-servicio">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Proteccion.name}
                                 />
