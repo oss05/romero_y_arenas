@@ -5,7 +5,6 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 import Home from '../pages/Home';
-import Nosotros from './Nosotros';
 import Areas from './Areas';
 import Equipo from './Equipo';
 import Boletines from './Boletines';

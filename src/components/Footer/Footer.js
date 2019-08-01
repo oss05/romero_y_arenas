@@ -16,11 +16,9 @@ const Footer = props => {
                     <a className="at-user__title contactoUser" href="mailto:nsarmiento@rasc.mx">nsarmiento@rasc.mx</a>
                 </div>
                 <div className="seccion2">
-                    {/* <div>
-                        <Contenido2 data={props.data}
-                            parrafoUno={props.data.secciones.areas.nombre}
-                        />
-                    </div> */}
+                    {/* <Contenido2 data={props.data}
+                        parrafoUno={props.data.secciones.footer.derechos}
+                    /> */}
                     <a href="../AVISO DE PRIVACIDAD.pdf" target="_blank" className="avisoPrivacidad">Aviso de Privacidad</a>
                     <div className="logo_soma">
                         <p className="designed">Designed By</p>

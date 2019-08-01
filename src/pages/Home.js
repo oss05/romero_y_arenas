@@ -66,7 +66,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio">
+                            <Link to="/areas-de-servicio#cumplimientoNormativ">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Cumplimiento.name}
                                 />
@@ -74,7 +74,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio">
+                            <Link to="/areas-de-servicio#mercantil">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Litigio.name}
                                 />
@@ -82,7 +82,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio">
+                            <Link to="/areas-de-servicio#proteccion">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Proteccion.name}
                                 />

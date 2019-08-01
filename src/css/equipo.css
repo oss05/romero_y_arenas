@@ -143,7 +143,7 @@ button {
 .areas_de_servicio_contenido {
     /* border: solid 1px blue; */
     width: 100%;
-    height: 28em;
+    height: auto;
     margin-top: 30px;
     display: flex;
 }
