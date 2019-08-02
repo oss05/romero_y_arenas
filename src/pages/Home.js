@@ -82,7 +82,7 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio#proteccion">
+                            <Link to="/areas-de-servicio/:proteccion">
                             <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Proteccion.name}
                                 />

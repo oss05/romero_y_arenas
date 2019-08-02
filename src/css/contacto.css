@@ -146,7 +146,7 @@ button {
     background-color: #f1f2f2;
     padding: 0 0.8em;
     text-align: center;
-    font-size: 150%;
+    /* font-size: 150%; */
 }
 
 .hrFooter {
