@@ -1,6 +1,6 @@
 header {
   background-size: auto;
-  background-position: center;
+  background-position: cover;
   width: 100%;
   height: 60vh;
   /* border: solid 1px red; */
@@ -53,7 +53,7 @@ i {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: hsla(0, 0%, 100%, 0.7);
+  /* background-color: hsla(0, 0%, 100%, 0.7); */
   width: 60%;
 }
 
@@ -108,7 +108,7 @@ button {
 /* --------fin toggler-------------*/
 
 .contenedorSeccion {
-  padding: 7em 0;
+  /* padding: 7em 0; */
   height: 100%;
   display: flex;
   align-items: center;
@@ -149,7 +149,7 @@ button {
 
 .aServicioFoto {
   /* border: solid 1px orangered; */
-  width: 55%;
+  width: 100%;
   height: 35em;
   background-image: url('../img/aServicio.jpg');
   background-size: cover;
@@ -195,7 +195,7 @@ button {
 .whiteDecorationRect:hover {
   background-color: #f1f2f2;
   width: 100%;
-  height: 45px;
+  height: 40px;
   font-size: 20px;
 }
 
@@ -238,7 +238,7 @@ button {
   /* margin-top: 40px !important; */
   width: 100%;
   height: auto;
-  margin-top: -2em !important;
+  /* margin-top: -2em !important; */
 }
 
 .seccion1 {
@@ -341,7 +341,7 @@ a.avisoPrivacidad:hover {
   /*--------navbar--------------------------- */
   header {
     background-image: url('../img/portada_res.png');
-    background-size: auto;
+    background-size: auto; 
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -356,8 +356,8 @@ a.avisoPrivacidad:hover {
     display: initial !important;
     opacity: 1 !important;
   }
-  .img_logoNav {
-    width: 4.8em;
+  .hero > img {
+    width: 6.8em !important;
     height: auto;
     display: initial !important;
     padding-left: 0.6em;
@@ -365,11 +365,18 @@ a.avisoPrivacidad:hover {
   .contenedorSeccion {
     display: none;
   }
+
+  .contenedorSeccion * {
+    font-size: 45px !important;
+    color: #8A0736;
+    font-weight: 200;
+    /* letter-spacing: 10pt !important; */
+}
   /* ------termina navbar-------- */
   .titulo_areas_servicio {
     /* border: solid 1px rgb(76, 50, 205); */
     width: 100%;
-    height: 60%;
+    height: 60% !important;
     background-color: #f1f2f2;
   }
 
@@ -379,7 +386,7 @@ a.avisoPrivacidad:hover {
 
   .titulo_areas_servicio > p {
     /* display: initial; */
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding-top: 3%;
@@ -418,15 +425,17 @@ a.avisoPrivacidad:hover {
     background-color: #f1f2f2;
   }
   .whiteDecorationRect a {
-    margin-left: -20px;
+    margin-left: -10em !important;
     color: black;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 15px !important;
   }
   .whiteDecorationRect:hover {
     color: transparent;
     height: 60px;
   }
+
+  
   .seccion_boletines {
     /* border: solid 1px rgb(255, 0, 191); */
     width: 65%;
@@ -526,7 +535,7 @@ a.avisoPrivacidad:hover {
     /* border: solid 1px rgb(255, 0, 191); */
     width: 65vw;
     margin-top: 30px;
-    height: 10em;
+    height: 0 !important;
     background-image: url('../img/boletines.png');
     background-size: cover;
     background-position: left;

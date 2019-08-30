@@ -18,11 +18,10 @@ const Areas = props => {
         <div>
             <header>
                 <div className="contenedorSeccion">
-                    <p className="tituloSeccion">
-                        <Contenido2 data={props.data}
+                        <Contenido2 
+                            data={props.data}
                             parrafoUno={props.data.secciones.areas.nombre}
                         />
-                    </p>
                 </div>
             </header>
 

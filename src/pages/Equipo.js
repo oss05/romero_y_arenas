@@ -5,18 +5,19 @@ import '../css/equipo.css'
 const Equipo = props => {
     return (
         <div>
-            <div class="contenedorSeccion">
-                <p class="tituloSeccion">
-                    <Contenido2  data={props.data}
-                        parrafoUno={props.data.secciones.equipo.nombre}
-                    />
-                </p>
-            </div>
+            <header>
+                <div class="contenedorSeccion">
+                    <p class="tituloSeccion">
+                        <Contenido2 data={props.data}
+                            parrafoUno={props.data.secciones.equipo.nombre}
+                        />
+                    </p>
+                </div>
+            </header>
             <main>
                 <section class="equipo">
                     <div class="decorationWhiteRects">
                         <div class="whiteDecorationRect">
-
                             <div class="whiteDecorationRectIn"></div>
                             <p>Raul Romero Trejo</p>
                         </div>

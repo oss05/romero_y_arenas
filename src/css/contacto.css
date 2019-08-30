@@ -7,7 +7,6 @@ header {
     /* border: solid 1px red; */
     display: flex;
     align-items: center;
-    margin-bottom: 2em;
 }
 
 .custom-navbar {
@@ -110,7 +109,7 @@ button {
     font-size: 100px;
     color: #8A0736;
     font-weight: 200;
-    letter-spacing: 10pt !important;
+    /* letter-spacing: 10pt !important; */
 }
 
 /* --------fin header -----------
@@ -306,7 +305,7 @@ a.avisoPrivacidad:hover {
         font-size: 35px;
         color: #8A0736;
         font-weight: 300;
-        letter-spacing: 4pt !important;
+        /* letter-spacing: 4pt !important; */
         margin-top: 0.5em;
     }
     /* ---------------------Fin navbar------------------ */

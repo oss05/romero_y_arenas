@@ -95,23 +95,33 @@ button {
     -webkit-appearance: listbox !important;
 }
 
-.contenedorSeccion {
+.contenedorSeccionUs {
     /* border: 1px solid yellow; */
-    width: 70%;
-    height: 9em;
-    background-color: #ffffffbf;
-    padding-left: 14em;
+    padding: 7em 0;
+    height: 100%;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .tituloSeccion {
     font-size: 100px;
     color: #8A0736;
     font-weight: 200;
-    letter-spacing: 10pt !important;
+    /* letter-spacing: 10pt !important; */
 }
 
+.hero{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.7);
+    width: 60%;
+}
+
+.hero > img {
+    width: 300px;
+}
 /* --------fin header------------ */
 
 /* --------seccion equipo ------------ */
@@ -157,29 +167,35 @@ button {
 }
 
 .whiteDecorationRect {
-    /* border: solid 1px blue; */
-    width: 100%;
-    height: 35px;
+    /* border: solid 1px red; */
+    width: 72%;
+    height: 30px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     display: flex;
-    margin-top: 1.5em;
+    margin-top: 2em;
+    font-size: 20px;
+    transition: 1s all ease;
 }
 
 .whiteDecorationRectIn {
     /* border: solid 1px red; */
     background-color: #f1f2f2;
-    width: 50%;
+    width: 60%;
     height: 35px;
 }
 
-.whiteDecorationRect p {
-    margin-left: -100px;
+
+.whiteDecorationRect > .linkAreaUs {
+    margin-left: -20px;
     color: black;
     text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 5px;
+    margin-top: 0.2em !important;
+    font-weight: 500;
+    width: 100%;
 }
+
 
 .decorationRect {
     /* border: solid 1px green; */
@@ -220,6 +236,7 @@ button {
     background-color: #f1f2f2;
     padding: 0 0.8em;
     text-align: center;
+    font-weight: bold;
 }
 
 .hrFooter {
@@ -354,15 +371,15 @@ a.avisoPrivacidad:hover {
         font-size: 60px;
         color: #8A0736;
         font-weight: 200;
-        letter-spacing: 4pt !important;
+        /* letter-spacing: 4pt !important; */
     }
     /* ---------------------Fin navbar------------------ */
     .seccion_boletines {
         /* border: solid 1px rgb(255, 0, 191); */
         width: 45%;
         margin-top: 2em;
-        height: 10em;
-        background-image: url('/img/boletines.png');
+        height: 0 !important;
+        background-image: url('/src/img/boletines_res.png');
         background-size: cover;
         background-position: left;
     }

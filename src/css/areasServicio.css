@@ -1,11 +1,11 @@
-/* html{
+html{
   scroll-behavior: smooth;
 }
 
 header {
   background-image: url('../img/portada.jpg');
   background-size: auto;
-  background-position: center;
+  background-position: cover;
   width: 100%;
   height: 60vh;
   display: flex;
@@ -100,7 +100,7 @@ button {
 }
 
 .contenedorSeccion {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   width: 70%;
   height: 9em;
   background-color: #ffffffbf;
@@ -109,12 +109,12 @@ button {
   align-items: center;
 }
 
-.tituloSeccion {
+.contenedorSeccion * {
   font-size: 100px;
   color: #8A0736;
   font-weight: 200;
-  letter-spacing: 10pt !important;
-} */
+  /* letter-spacing: 10pt !important; */
+}
 
 /* --------fin header -----------
 /* --------comienzo Main -----------*/
@@ -402,7 +402,7 @@ a.avisoPrivacidad:hover {
     font-size: 35px;
     color: #8A0736;
     font-weight: 300;
-    letter-spacing: 4pt !important;
+    /* letter-spacing: 4pt !important; */
     margin-top: 0.5em;
   }
   /* ---------------------Fin navbar------------------ */

@@ -109,7 +109,7 @@ button {
     font-size: 100px;
     color: #8A0736;
     font-weight: 200;
-    letter-spacing: 10pt !important;
+    /* letter-spacing: 10pt !important; */
 }
 
 /* --------fin header -----------
@@ -331,15 +331,15 @@ a.avisoPrivacidad:hover {
         font-size: 50px;
         color: #8A0736;
         font-weight: 200;
-        letter-spacing: 4pt !important;
+        /* letter-spacing: 4pt !important; */
     }
     /* ---------------------Fin navbar------------------ */
     .seccion_boletines {
         /* border: solid 1px rgb(255, 0, 191); */
         width: 45%;
         margin-top: 2em;
-        height: 10em;
-        background-image: url('/img/boletines.png');
+        height: 0 !important;
+        background-image: url('/src/img/boletines_res.png');
         background-size: cover;
         background-position: left;
     }

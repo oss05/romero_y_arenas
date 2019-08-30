@@ -9,12 +9,13 @@ const Footer = props => {
     return (
         <div>
             <header>
-                <div className="contenedorSeccion">
-                    <p className="tituloSeccion hero"><img src={logoRya} /> </p>
+                <div className="contenedorSeccionUs">
+                    <p className="hero">
+                        <img src={logoRya} />
+                    </p>
                 </div>
             </header>
             <main>
-
                 <div className="areas_de_servicio">
                     <div className="titulo_areas_servicio">
                         <img className="titulo_areas_servicio" src={imgAreas} alt />
@@ -26,7 +27,7 @@ const Footer = props => {
                     <div className="decorationWhiteRects">
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio">
+                            <Link className="linkAreaUs" to="/areas-de-servicio">
                                 <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Laboral.name}
                                 />
@@ -34,56 +35,56 @@ const Footer = props => {
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio">
-                            <Contenido2 data={props.data}
+                            <Link className="linkAreaUs" to="/areas-de-servicio">
+                                <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Corporativo.name}
                                 />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio">
-                            <Contenido2 data={props.data}
+                            <Link className="linkAreaUs" to="/areas-de-servicio">
+                                <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Contratos.name}
                                 />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio">
-                            <Contenido2 data={props.data}
+                            <Link className="linkAreaUs" to="/areas-de-servicio">
+                                <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Competencia.name}
                                 />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio">
-                            <Contenido2 data={props.data}
+                            <Link className="linkAreaUs" to="/areas-de-servicio">
+                                <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Propiedad.name}
                                 />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio#cumplimientoNormativ">
-                            <Contenido2 data={props.data}
+                            <Link className="linkAreaUs" to="/areas-de-servicio#cumplimientoNormativ">
+                                <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Cumplimiento.name}
                                 />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio#mercantil">
-                            <Contenido2 data={props.data}
+                            <Link className="linkAreaUs" to="/areas-de-servicio#mercantil">
+                                <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Litigio.name}
                                 />
                             </Link>
                         </div>
                         <div className="whiteDecorationRect">
                             <div className="whiteDecorationRectIn" />
-                            <Link to="/areas-de-servicio/:proteccion">
-                            <Contenido2 data={props.data}
+                            <Link className="linkAreaUs" to="/areas-de-servicio/:proteccion">
+                                <Contenido2 data={props.data}
                                     parrafoUno={props.data.secciones.areas.Proteccion.name}
                                 />
                             </Link>
