@@ -16,8 +16,8 @@ const Footer = props => {
                 <a className="at-user__title contactoUser" href="mailto:nsarmiento@rasc.mx">nsarmiento@rasc.mx</a>
             </div>
             <div className="seccion2">
-                <p>Todos los derechos reservados</p>
-                <a href="./AVISO DE PRIVACIDAD.pdf" target="_blank" className="avisoPrivacidad">Aviso de Privacidad</a>
+                <p>{props.data.secciones.footer.derechos}</p>
+    <a href="./AVISO DE PRIVACIDAD.pdf" target="_blank" className="avisoPrivacidad">{props.data.secciones.footer.aviso}</a>
                 <div className="logo_soma">
                     <p className="designed">Designed By</p>
                     <img className="imgLogoSoma" src={logoSOMA} alt="logoSOMA" />

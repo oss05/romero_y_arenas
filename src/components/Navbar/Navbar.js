@@ -15,7 +15,6 @@ import {
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/Logo_RYA.png'
-import brochure from '../../assets/brochure.pdf'
 import './styles.css'
 
 const imagesPath = {
@@ -32,6 +31,7 @@ export default class NavbarCustom extends React.Component {
             collapsed: true
         };
     }
+
     toggle() {
         this.setState({
             collapsed: !this.state.collapsed
@@ -86,13 +86,14 @@ export default class NavbarCustom extends React.Component {
                             <NavItem>
                                 <Link to="/boletines" onClick={this.handleClick}>
                                     <NavLink>
+                                
                                     {this.props.data.secciones.boletines.nombre}
                                 </NavLink>
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink href={brochure} onClick={this.handleClick} download>
-                                    Brochure
+                                <NavLink onClick={this.props.handleBrochure} href='../../assets/BROCHURER&A2019.pdf' download>
+                                    Brochure 
                                 </NavLink>
                             </NavItem>
                             <NavItem>

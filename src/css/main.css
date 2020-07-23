@@ -49,7 +49,7 @@ i {
   color: #8A0736;
 }
 
-.hero{
+.hero {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -57,9 +57,10 @@ i {
   width: 60%;
 }
 
-.hero img{
+.hero img {
   width: 300px;
 }
+
 /* ----------navbar responsive toggler------------ */
 
 .dot, .dot:before, .dot:after {
@@ -129,14 +130,14 @@ button {
 
 .titulo_areas_servicio {
   /* border: solid 1px rgb(76, 50, 205); */
+  background-image: url(../img/service.png);
   width: 60vw;
   height: 100%;
 }
 
-.titulo_areas_servicio > p {
- font-size: 0;
+.titulo_areas_servicio>p {
+  font-size: 2em;
 }
-
 
 .areas_de_servicio_contenido {
   /* border: solid 1px blue; */
@@ -174,7 +175,7 @@ button {
   font-weight: bold;
   display: flex;
   margin-top: 2em;
-  font-size: 20px;
+  font-size: 15px;
   transition: 1s all ease;
 }
 
@@ -215,7 +216,7 @@ button {
   width: 45vw;
   margin-top: 30px;
   height: 10em;
-  background-image: url('../img/boletines.png');
+  background-image: url('../img/bolet.png');
   background-size: cover;
   background-position: left;
 }
@@ -341,7 +342,7 @@ a.avisoPrivacidad:hover {
   /*--------navbar--------------------------- */
   header {
     background-image: url('../img/portada_res.png');
-    background-size: auto; 
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -356,7 +357,7 @@ a.avisoPrivacidad:hover {
     display: initial !important;
     opacity: 1 !important;
   }
-  .hero > img {
+  .hero>img {
     width: 6.8em !important;
     height: auto;
     display: initial !important;
@@ -365,13 +366,12 @@ a.avisoPrivacidad:hover {
   .contenedorSeccion {
     display: none;
   }
-
   .contenedorSeccion * {
     font-size: 45px !important;
     color: #8A0736;
     font-weight: 200;
     /* letter-spacing: 10pt !important; */
-}
+  }
   /* ------termina navbar-------- */
   .titulo_areas_servicio {
     /* border: solid 1px rgb(76, 50, 205); */
@@ -379,12 +379,10 @@ a.avisoPrivacidad:hover {
     height: 60% !important;
     background-color: #f1f2f2;
   }
-
-  .titulo_areas_servicio > img {
+  .titulo_areas_servicio>img {
     display: none;
   }
-
-  .titulo_areas_servicio > p {
+  .titulo_areas_servicio>p {
     /* display: initial; */
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
@@ -393,8 +391,6 @@ a.avisoPrivacidad:hover {
     color: #000;
     border-bottom: solid 2px #8A0736;
   }
-  
-  
   .aServicioFoto {
     display: none;
   }
@@ -434,8 +430,6 @@ a.avisoPrivacidad:hover {
     color: transparent;
     height: 60px;
   }
-
-  
   .seccion_boletines {
     /* border: solid 1px rgb(255, 0, 191); */
     width: 65%;
@@ -523,7 +517,7 @@ a.avisoPrivacidad:hover {
     display: flex;
     margin-top: 1.5em;
     background-color: #f1f2f2;
-    font-size: 20px;
+    font-size: 15px;
   }
   .whiteDecorationRectIn {
     /* border: solid 1px red; */
@@ -536,7 +530,7 @@ a.avisoPrivacidad:hover {
     width: 65vw;
     margin-top: 30px;
     height: 0 !important;
-    background-image: url('../img/boletines.png');
+    background-image: url('../img/bolet.png');
     background-size: cover;
     background-position: left;
   }
